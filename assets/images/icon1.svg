@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
-  <!-- House Roof and Base -->
-  <path d="M60 20L22 52H28V92H92V52H98L60 20Z" stroke="#6C628D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Green Heart in Center -->
-  <path d="M60 56C56 50 47.5 50.5 45 56.5C41.5 64 60 76 60 76C60 76 78.5 64 75 56.5C72.5 50.5 64 50 60 56Z" fill="#A2C886" stroke="#6C628D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
