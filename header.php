@@ -11,17 +11,7 @@
 <header class="site-header">
 	<div class="container header-container">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-logo">
-			<svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<circle cx="24" cy="24" r="22" fill="#4E3F6B" />
-				<path d="M24 14C21.5 14 19.5 16 19.5 18.5C19.5 23 24 27 24 27C24 27 28.5 23 28.5 18.5C28.5 16 26.5 14 24 14Z" fill="#A2C886"/>
-				<circle cx="17" cy="30" r="3" fill="#FFFFFF"/>
-				<circle cx="24" cy="32" r="3.5" fill="#A2C886"/>
-				<circle cx="31" cy="30" r="3" fill="#FFFFFF"/>
-			</svg>
-			<div class="logo-text">
-				<span class="logo-title">Griya Karuna</span>
-				<span class="logo-subtitle">Rumah Singgah Pasien Anak</span>
-			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_griyakaruna.webp" alt="Griya Karuna Logo" style="height: 48px; width: auto;" />
 		</a>
 
 		<nav class="main-navigation">

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <!-- Stairs -->
+  <path d="M20 96H50V76H74V56H98" stroke="#6C628D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Person Head -->
+  <circle cx="52" cy="28" r="8" stroke="#6C628D" stroke-width="4" fill="none"/>
+
+  <!-- Person Body climbing -->
+  <path d="M52 36C44 36 36 44 34 56C42 56 46 54 50 50V90H42M50 50V90H58" fill="#A2C886" stroke="#6C628D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arm reaching forward -->
+  <path d="M52 44L66 52" stroke="#6C628D" stroke-width="4" stroke-linecap="round"/>
+</svg>

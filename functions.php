@@ -72,14 +72,9 @@ function griyakaruna_scripts() {
 	// Theme Stylesheet
 	wp_enqueue_style( 'griyakaruna-style', get_stylesheet_uri(), array(), '1.0.0' );
 
-	// Mobile Navigation Script
-	wp_enqueue_script(
-		'griyakaruna-navigation',
-		get_template_directory_uri() . '/assets/js/navigation.js',
-		array(),
-		'1.0.0',
-		true
-	);
+	// Scripts
+	wp_enqueue_script( 'griyakaruna-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'griyakaruna-drag-scroll', get_template_directory_uri() . '/assets/js/drag-scroll.js', array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'griyakaruna_scripts' );
 
