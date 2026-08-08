@@ -39,9 +39,9 @@ get_header();
 			<!-- Card 1 -->
 			<div class="feature-card">
 				<div class="feature-icon-wrapper">
-					<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M32 10L8 28V54H56V28L32 10Z" stroke="#594B73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M32 32C29.5 29 26.5 31.5 26.5 34C26.5 37 32 41 32 41C32 41 37.5 37 37.5 34C37.5 31.5 34.5 29 32 32Z" stroke="#9EC07D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+					<svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M40 12L12 36V68H68V36L40 12Z" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M40 40C36.5 36 32.5 39 32.5 43C32.5 48.5 40 54 40 54C40 54 47.5 48.5 47.5 43C47.5 39 43.5 36 40 40Z" fill="#A2C886" stroke="#A2C886" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 					</svg>
 				</div>
 				<p class="feature-text">
@@ -52,13 +52,13 @@ get_header();
 			<!-- Card 2 -->
 			<div class="feature-card">
 				<div class="feature-icon-wrapper">
-					<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="20" cy="20" r="6" stroke="#594B73" stroke-width="3"/>
-						<circle cx="32" cy="16" r="6" stroke="#9EC07D" stroke-width="3"/>
-						<circle cx="44" cy="20" r="6" stroke="#594B73" stroke-width="3"/>
-						<path d="M12 48V36C12 33 15 31 18 31H22" stroke="#594B73" stroke-width="3" stroke-linecap="round"/>
-						<path d="M26 48V32C26 29 29 27 32 27C35 27 38 29 38 32V48" stroke="#9EC07D" stroke-width="3" stroke-linecap="round"/>
-						<path d="M52 48V36C52 33 49 31 46 31H42" stroke="#594B73" stroke-width="3" stroke-linecap="round"/>
+					<svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="26" cy="24" r="7" stroke="#4E3F6B" stroke-width="2.5"/>
+						<circle cx="40" cy="18" r="7" stroke="#A2C886" stroke-width="2.5"/>
+						<circle cx="54" cy="24" r="7" stroke="#4E3F6B" stroke-width="2.5"/>
+						<path d="M16 60V46C16 41 20 38 25 38H28" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round"/>
+						<path d="M33 60V39C33 34 36.5 31 40 31C43.5 31 47 34 47 39V60" stroke="#A2C886" stroke-width="2.5" stroke-linecap="round"/>
+						<path d="M64 60V46C64 41 60 38 55 38H52" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round"/>
 					</svg>
 				</div>
 				<p class="feature-text">
@@ -69,10 +69,10 @@ get_header();
 			<!-- Card 3 -->
 			<div class="feature-card">
 				<div class="feature-icon-wrapper">
-					<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="20" cy="18" r="5" stroke="#594B73" stroke-width="3"/>
-						<path d="M14 44L22 30L30 38L38 24L48 34" stroke="#9EC07D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M10 50H54" stroke="#594B73" stroke-width="3" stroke-linecap="round"/>
+					<svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="28" cy="22" r="6" stroke="#4E3F6B" stroke-width="2.5"/>
+						<path d="M18 58L30 38L40 48L52 30L64 42" stroke="#A2C886" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M14 64H66" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round"/>
 					</svg>
 				</div>
 				<p class="feature-text">
@@ -83,11 +83,11 @@ get_header();
 			<!-- Card 4 -->
 			<div class="feature-card">
 				<div class="feature-icon-wrapper">
-					<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M16 48C16 38 23 30 32 30C41 30 48 38 48 48" stroke="#594B73" stroke-width="3" stroke-linecap="round"/>
-						<circle cx="32" cy="20" r="7" stroke="#9EC07D" stroke-width="3"/>
-						<path d="M8 48C8 42 12 36 18 34" stroke="#594B73" stroke-width="3" stroke-linecap="round"/>
-						<path d="M56 48C56 42 52 36 46 34" stroke="#594B73" stroke-width="3" stroke-linecap="round"/>
+					<svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22 62C22 48 30 38 40 38C50 38 58 48 58 62" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round"/>
+						<circle cx="40" cy="24" r="8" stroke="#A2C886" stroke-width="2.5"/>
+						<path d="M12 62C12 53 17 45 24 43" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round"/>
+						<path d="M68 62C68 53 63 45 56 43" stroke="#4E3F6B" stroke-width="2.5" stroke-linecap="round"/>
 					</svg>
 				</div>
 				<p class="feature-text">

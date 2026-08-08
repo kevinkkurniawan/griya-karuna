@@ -13,23 +13,23 @@ Text Domain: griyakaruna
    DESIGN SYSTEM & VARIABLES
    ========================================================================== */
 :root {
-  --color-primary: #594B73;
-  --color-primary-dark: #433758;
-  --color-primary-light: #756790;
+  --color-primary: #4E3F6B;
+  --color-primary-dark: #3A2E52;
+  --color-primary-light: #6E5F8B;
   
-  --color-accent: #9EC07D;
-  --color-accent-hover: #8BB06A;
-  --color-accent-light: #EBF3E5;
+  --color-accent: #A2C886;
+  --color-accent-hover: #91B974;
+  --color-accent-light: #F0F6EB;
 
-  --color-footer-bg: #897FA6;
-  --color-footer-bottom: #9EC07D;
+  --color-footer-bg: #8A80A6;
+  --color-footer-bottom: #A2C886;
   --color-footer-text: #FFFFFF;
 
-  --color-text-main: #333333;
-  --color-text-muted: #666666;
-  --color-bg-light: #F9F8FC;
+  --color-text-main: #2D253A;
+  --color-text-muted: #6C6477;
+  --color-bg-light: #F8F7FA;
   --color-white: #FFFFFF;
-  --color-border: #E8E5EE;
+  --color-border: #E0DBEC;
 
   --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -37,9 +37,9 @@ Text Domain: griyakaruna
   --container-max-width: 1240px;
   --border-radius-card: 20px;
   --border-radius-btn: 30px;
-  --shadow-sm: 0 4px 12px rgba(89, 75, 115, 0.06);
-  --shadow-md: 0 8px 24px rgba(89, 75, 115, 0.1);
-  --shadow-hover: 0 14px 32px rgba(89, 75, 115, 0.16);
+  --shadow-sm: 0 4px 14px rgba(78, 63, 107, 0.05);
+  --shadow-md: 0 8px 24px rgba(78, 63, 107, 0.09);
+  --shadow-hover: 0 14px 32px rgba(78, 63, 107, 0.14);
 
   --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);

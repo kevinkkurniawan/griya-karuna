@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program – Griya Karuna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/js/navigation.js" defer></script>
+</head>
+<body class="griyakaruna-theme">
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo">
+        <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="22" fill="#4E3F6B" />
+          <path d="M24 14C21.5 14 19.5 16 19.5 18.5C19.5 23 24 27 24 27C24 27 28.5 23 28.5 18.5C28.5 16 26.5 14 24 14Z" fill="#A2C886"/>
+          <circle cx="17" cy="30" r="3" fill="#FFFFFF"/>
+          <circle cx="24" cy="32" r="3.5" fill="#A2C886"/>
+          <circle cx="31" cy="30" r="3" fill="#FFFFFF"/>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-title">Griya Karuna</span>
+          <span class="logo-subtitle">Rumah Singgah Pasien Anak</span>
+        </div>
+      </a>
+
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          <li class="current-menu-item"><a href="program.html">Program</a></li>
+          <li><a href="publikasi.html">Publikasi</a></li>
+          <li><a href="hubungi-kami.html">Hubungi Kami</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Open Navigation Menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+      <span class="logo-title" style="font-size: 1.2rem;">Menu Navigation</span>
+      <button id="mobile-nav-close" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--color-primary);">&times;</button>
+    </div>
+    <ul style="list-style: none; display: flex; flex-direction: column; gap: 20px; font-size: 1.1rem; font-weight: 600;">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tentang-kami.html">Tentang Kami</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="publikasi.html">Publikasi</a></li>
+      <li><a href="hubungi-kami.html">Hubungi Kami</a></li>
+    </ul>
+  </aside>
+
+  <div class="page-header-banner">
+    <div class="container">
+      <h1>Program & Layanan</h1>
+      <p style="font-size: 1.1rem; opacity: 0.9; margin-top: 8px;">Berbagai Program Pendampingan Anak & Keluarga</p>
+    </div>
+  </div>
+
+  <section class="page-content-area">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;">
+        <div style="background: #FFF; border: 1px solid var(--color-border); border-radius: var(--border-radius-card); padding: 32px; box-shadow: var(--shadow-sm);">
+          <div style="width: 56px; height: 56px; background: var(--color-accent-light); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4E3F6B" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+          </div>
+          <h3 style="font-size: 1.3rem; color: var(--color-primary); margin-bottom: 12px;">Akomodasi Rumah Singgah</h3>
+          <p style="color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.6;">
+            Fasilitas tempat tinggal gratis, kamar bersih, konsumsi nutrisi seimbang, serta perlengkapan sehari-hari bagi pasien anak dan orang tua pendamping.
+          </p>
+        </div>
+
+        <div style="background: #FFF; border: 1px solid var(--color-border); border-radius: var(--border-radius-card); padding: 32px; box-shadow: var(--shadow-sm);">
+          <div style="width: 56px; height: 56px; background: var(--color-accent-light); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4E3F6B" stroke-width="2"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg>
+          </div>
+          <h3 style="font-size: 1.3rem; color: var(--color-primary); margin-bottom: 12px;">Pendampingan Psikososial</h3>
+          <p style="color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.6;">
+            Dukungan moral, sesi konseling, dan kelompok berbagi emosional untuk menguatkan psikologis orang tua dalam proses terapi medis anak.
+          </p>
+        </div>
+
+        <div style="background: #FFF; border: 1px solid var(--color-border); border-radius: var(--border-radius-card); padding: 32px; box-shadow: var(--shadow-sm);">
+          <div style="width: 56px; height: 56px; background: var(--color-accent-light); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4E3F6B" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+          </div>
+          <h3 style="font-size: 1.3rem; color: var(--color-primary); margin-bottom: 12px;">Ruang Belajar & Edukasi</h3>
+          <p style="color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.6;">
+            Aktivitas belajar informal, membaca buku, mewarnai, dan permainan edukatif agar hak bertumbuh dan belajar anak tetap terpenuhi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-heading">Kunjungi Kami</h3>
+        <div class="location-item">
+          <div class="location-title">Yogyakarta</div>
+          <p class="location-address">
+            Jl. Jembatan Merah V No.62, Soropadan, Condongcatur,<br>
+            Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
+          </p>
+        </div>
+        <div class="location-item">
+          <div class="location-title">Jakarta</div>
+          <p class="location-address">
+            Jl. Kyai Maja No.43, Gunung, Kec. Kby. Baru,<br>
+            Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12120
+          </p>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer-heading">Menu Utama</h3>
+        <ul class="contact-list">
+          <li><a href="index.html" style="color: #FFF; text-decoration: none;">Beranda</a></li>
+          <li><a href="tentang-kami.html" style="color: #FFF; text-decoration: none;">Tentang Kami</a></li>
+          <li><a href="program.html" style="color: #FFF; text-decoration: none;">Program Support</a></li>
+          <li><a href="publikasi.html" style="color: #FFF; text-decoration: none;">Publikasi & Artikel</a></li>
+          <li><a href="hubungi-kami.html" style="color: #FFF; text-decoration: none;">Hubungi Kami</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-heading">Kontak Kami</h3>
+        <ul class="contact-list">
+          <li class="contact-item"><span>@rumahsinggah_griyakaruna</span></li>
+          <li class="contact-item"><span>+6281234567890</span></li>
+          <li class="contact-item"><span>griyakaruna@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom-bar">
+      <div class="container">Copyright © 2026 Griya Karuna. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
